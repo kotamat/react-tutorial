@@ -8,7 +8,7 @@ interface Props {
   squares: Squares;
 }
 export interface State {
-  squares: string[];
+  squares: Squares;
   xIsNext: boolean;
 }
 export class Board extends React.Component<Props, State> {
